@@ -1,6 +1,5 @@
 import java.util.Vector;
 class Solution {
-
     public int solution(Vector<Integer> arr){
        int n = arr.size();
       
@@ -12,9 +11,6 @@ class Solution {
         }
         return dp[0];
     }
-    
-
-
     public int rob(int[] nums) {
         int n = nums.length;
          if(n==1){
